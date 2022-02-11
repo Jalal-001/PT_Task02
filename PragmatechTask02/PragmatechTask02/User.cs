@@ -30,7 +30,7 @@ namespace PragmatechTask02
         }
         public override void ShowInfo()
         {
-            Console.WriteLine($"Your FullName: {FullName}/Your Email: {Email}");
+            Console.WriteLine($"Your FullName: {FullName}\nYour Email: {Email}");
         }
     }
 }

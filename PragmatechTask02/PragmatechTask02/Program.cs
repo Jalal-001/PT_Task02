@@ -12,7 +12,7 @@ namespace PragmatechTask02
         {
 
             User user = new User();
-
+        HomePage:
             Console.WriteLine("Please enter your Fullname:");
             user.FullName = Console.ReadLine();
             Console.WriteLine("Please enter your email:");
@@ -31,6 +31,8 @@ namespace PragmatechTask02
                     user.ShowInfo();
                     break;
             }
+            Console.WriteLine("----------------------------------------");
+            goto HomePage;
             Console.ReadLine();
         }
     }
